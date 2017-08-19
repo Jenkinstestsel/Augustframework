@@ -1,0 +1,6 @@
+[INFO] 2017-08-19 16:11:04,040 projectScripts.Script_Login invalidLogin - passed as Invalid login is working
+[INFO] 2017-08-19 16:11:12,738 projectScripts.Script_Login invalidLogin - passed as Invalid login is working
+[INFO] 2017-08-19 16:11:18,644 projectScripts.Script_Login invalidLogin - passed as Invalid login is working
+[INFO] 2017-08-19 16:11:26,297 projectScripts.Script_Login validLogin - passed as Valid login is working
+[INFO] 2017-08-19 16:11:36,190 projectScripts.Script_Login validLogin - passed as Valid login is working
+[INFO] 2017-08-19 16:11:58,340 projectScripts.Script_Login invalidLogin - passed as Invalid login is working

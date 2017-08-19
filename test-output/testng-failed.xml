@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="ff"/>
+  <test name="Testff(failed)">
+    <parameter name="browser" value="ff"/>
+    <groups>
+      <run>
+        <include name="qa"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="projectScripts.Script_Search">
+        <methods>
+          <include name="validSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- projectScripts.Script_Search -->
+      <class name="projectScripts.Script_Login">
+        <methods>
+          <include name="invalidLogin" invocation-numbers="0 1"/>
+          <include name="validLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- projectScripts.Script_Login -->
+    </classes>
+  </test> <!-- Testff(failed) -->
+</suite> <!-- Failed suite [Suite] -->

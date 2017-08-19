@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DELL-PC" name="projectScripts.Script_Login" tests="5" failures="0" timestamp="19 Aug 2017 11:43:01 GMT" time="6.375" errors="0">
+  <testcase name="@BeforeMethod launch_App" time="0.0" classname="projectScripts.Script_Login">
+    <failure type="java.io.FileNotFoundException" message="E:\Jan\AugustFramework\src\test\resources\Config.properties (The system cannot find the file specified)">
+      <![CDATA[java.io.FileNotFoundException: E:\Jan\AugustFramework\src\test\resources\Config.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at genericLibrary.utility.getpropertyval(utility.java:21)
+	at genericLibrary.Base.launch_App(Base.java:81)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="projectScripts.Script_Login">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod launch_App" time="0.0" classname="projectScripts.Script_Login">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="projectScripts.Script_Login">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod launch_App" time="0.0" classname="projectScripts.Script_Login">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="projectScripts.Script_Login">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod launch_App" time="0.0" classname="projectScripts.Script_Search">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="projectScripts.Script_Search">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod launch_App" time="0.0" classname="projectScripts.Script_Search">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="projectScripts.Script_Search">
+    <skipped/>
+  </testcase>
+  <testcase name="invalidLogin" time="0.0" classname="projectScripts.Script_Login">
+    <skipped/>
+  </testcase>
+  <testcase name="invalidLogin" time="0.0" classname="projectScripts.Script_Login">
+    <skipped/>
+  </testcase>
+  <testcase name="validLogin" time="0.0" classname="projectScripts.Script_Login">
+    <skipped/>
+  </testcase>
+  <testcase name="invalidSearch" time="0.0" classname="projectScripts.Script_Search">
+    <skipped/>
+  </testcase>
+  <testcase name="validSearch" time="0.0" classname="projectScripts.Script_Search">
+    <skipped/>
+  </testcase>
+</testsuite>

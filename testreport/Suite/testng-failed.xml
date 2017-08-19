@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="ch"/>
+  <test name="Testie(failed)" preserve-order="false">
+    <parameter name="browser" value="ch"/>
+    <classes>
+      <class name="projectScripts.Script_Search">
+        <methods>
+          <include name="intitalSetup"/>
+          <include name="invalidSearch"/>
+          <include name="validSearch"/>
+        </methods>
+      </class>
+      <class name="projectScripts.Script_Login">
+        <methods>
+          <include name="launch_App"/>
+          <include name="invalidLogin"/>
+          <include name="validLogin"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
